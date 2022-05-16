@@ -1,0 +1,42 @@
+#navbar{
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    background-color:powderblue;
+    padding:10px;
+}
+*{
+    border:0px;
+    margin:0px;
+}
+#navbar>div{
+    display:flex;
+    justify-content: space-around;
+}
+#homepage{
+    margin-right:40px;
+    border-radius:16px;
+    font-size:24px
+}
+#searchpage{
+    margin-left:40px;
+    border-radius:16px;
+    font-size:24px
+}
+#container{
+    width:70%;
+    margin:auto;
+}
+#container>select{
+    font-size:20px;
+    background-color:aquamarine
+}
+table,td,tr{
+  border:1px solid black;
+  border:collapse;
+  border-collapse: collapse;
+}
+thead{
+    background-color:teal;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./homepage.css">
+</head>
+<body>
+    <div id="navbar">
+        <div>
+            <div>
+                <button id="homepage" onclick='window.location.href="./homepage.html"'>HomePage</button>   
+            </div>
+            <div>
+             <button id="searchpage" onclick='window.location.href="./searchpage.html"'>SearchPage</button>
+            </div>
+        </div>  
+    </div>
+    <div id="container">
+        <select name="" id="typeofbrewery">
+            <option value="micro">micro</option>
+            <option value="nano">nano</option>
+            <option value="regional">regional</option>
+            <option value="brewpub">brewpub</option>
+            <option value="large">large</option>
+            <option value="planning">planning</option>
+            <option value="bar">bar</option>
+            <option value="contract">contract</option>
+            <option value="proprietor">proprietor</option>
+            <option value="closed">closed</option>
+        </select>
+       <table>
+           <thead>
+               <tr>
+                   <td>Name</td>
+                   <td>Brewery_Type</td>
+                   <td>City</td>
+                   <td>State</td>
+                   <td>More_Details</td>
+               </tr>
+           </thead>
+           <tbody>
+
+           </tbody>
+       </table>
+    </div>
+</body>
+<script src="./homepage.js"></script>
+</html>
